@@ -3,15 +3,18 @@
 *::after {
     box-sizing: border-box;
     margin: 0;
-};
+    
+}
 .container{
     display: flex;
-    width: 1835px;
-    height: 980px;
+    flex-direction: column;
+    width: 2050px;
+    height: 1080px;
+    background-color: #ECEEF1;
 }
 header{
     display: flex;
-    width: 1835px;
+    width: 2050px;
     height: 80px;
     justify-content: right;
     align-items: center;
@@ -30,7 +33,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1835px;
+    width: 2050px;
     height: 880px;
 }
 main .intuit{
@@ -38,12 +41,21 @@ main .intuit{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1835px;
-    height: 100px;
+    width: 2050px;
+    height: 130px;
+}
+main .head{
+    height: 56px;
+}
+main .otherProd{
+    height: 44px;;
 }
 form{
-    width: 380px;
-    height: 635px;
+    width: 400px;
+    height: 700px;
+    border: 1px solid rgb(165, 165, 165);
+    background-color:white;
+    margin-bottom: 30px;
 }
 form .about{
     height: 135px;
@@ -61,11 +73,24 @@ form .form_footer{
     height: 56px;
 }
 main .main_footer{
-   height: 150px; 
-   width: 1835px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 2050px;
+}
+main .links{
+    height: 12px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+main .copyright{
+    height: 32px;
+    width: 870px;
+    text-align: center;
 }
 footer{
     display: flex;
-    width: 1835px;
-    height: 80px;
+    width: 2050px;
+    height: 60px;
 }
