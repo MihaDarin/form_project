@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+};
+.container{
+    display: flex;
+    width: 1835px;
+    height: 980px;
+}
+header{
+    display: flex;
+    width: 1835px;
+    height: 80px;
+}
+main{
+    width: 1835px;
+    height: 880px;
+}
+main .intuit{
+    width: 1835px;
+    height: 100px;
+}
+form{
+    width: 380px;
+    height: 635px;
+}
+main .main_footer{
+   height: 150px; 
+   width: 1835px;
+}
+footer{
+    display: flex;
+    width: 1835px;
+    height: 80px;
+}
