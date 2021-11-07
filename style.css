@@ -27,16 +27,38 @@ header .signBtn{
     height: 37px;
 }
 main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 1835px;
     height: 880px;
 }
 main .intuit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 1835px;
     height: 100px;
 }
 form{
     width: 380px;
     height: 635px;
+}
+form .about{
+    height: 135px;
+}
+form .account-info{
+    height: 290px;
+}
+form .account-action{
+    height: 50px;
+}
+form .info{
+    height: 105px;
+}
+form .form_footer{
+    height: 56px;
 }
 main .main_footer{
    height: 150px; 
