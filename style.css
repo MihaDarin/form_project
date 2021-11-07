@@ -13,6 +13,18 @@ header{
     display: flex;
     width: 1835px;
     height: 80px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 30px;
+}
+header .text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+header .signBtn{
+    width: 113px;
+    height: 37px;
 }
 main{
     width: 1835px;
