@@ -20,14 +20,22 @@ header{
     align-items: center;
     padding-right: 30px;
 }
+header .forgot{
+    text-decoration: none;
+    color: #0077C5;
+}
 header .text{
     display: flex;
     flex-direction: column;
     padding-right: 10px;
+    color: #505050;
 }
 header .signBtn{
     width: 113px;
     height: 37px;
+    background: #0077C5;
+    border-radius: 6px;
+    color: white;
 }
 main{
     display: flex;
@@ -43,6 +51,7 @@ main .intuit{
     align-items: center;
     width: 2050px;
     height: 130px;
+    color: #505050;
 }
 main .head{
     height: 56px;
@@ -58,19 +67,96 @@ form{
     margin-bottom: 30px;
 }
 form .about{
+    display: flex;
+    flex-direction: column;
     height: 135px;
+    justify-content: center;
+    align-items: center;
+}
+.about__create{
+    margin-bottom: 23px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: lighter;
+}
+.about__inf{
+    display: block;
+    width: 300px;
+text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    color: #505050;
+}
+.about__inf .learn__more{
+    text-decoration: none;
+    color: 0077C5;
 }
 form .account-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
     height: 290px;
+    padding: 0px 30px 0px 30px;
+    border: none;
+}
+.info_label{
+    width: 100%;
+}
+.info_input{
+    margin-top: 10px;
+    height: 35px;
+    width: 100%;
+}
+.user_phone{
+    font-size: 13px;
 }
 form .account-action{
+    display: flex;
+    justify-content: center;
     height: 50px;
+    border: none;
+    padding-top: 15px;
+}
+.btn__account__action{
+    height: 50px;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 336px;
+    background: #0077C5;
+    color: white;
+    border-radius: 5px;
 }
 form .info{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    width: 370px;
     height: 105px;
+    padding-left: 25px;
+    line-height: 22px;
+    color: #505050;
+}
+form .info a{
+    text-decoration: none;
+    color: #0077C5;
 }
 form .form_footer{
-    height: 56px;
+    width: 100%;
+    display: inline-block;
+    padding-top: 28px;
+    padding-left: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-size: 13px;
+    background: #eceef1;
+    color: #505050;
+}
+form .form_footer a{
+    text-decoration: none;
+    color: #0077C5;
 }
 main .main_footer{
     display: flex;
@@ -78,11 +164,14 @@ main .main_footer{
     align-items: center;
     height: 150px;
     width: 2050px;
+    color: #505050;
 }
 main .links{
+    text-decoration: none;
     height: 12px;
     font-size: 15px;
     margin-bottom: 12px;
+    
 }
 main .copyright{
     height: 32px;

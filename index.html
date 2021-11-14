@@ -12,7 +12,7 @@
     <header>
         <div class="text">
             <span>Already have an Intuit account?</span>
-            <a href="#">I forgot my User ID or Password</a>
+            <a href="#" class="forgot">I forgot my User ID or Password</a>
         </div>
             <input class="signBtn" type="button" name="signIn" id="signIn" value="Sign In">
     </header>
@@ -27,32 +27,32 @@
         </div>
         <form action="#">
             <div class="about">
-                <h2>Create an Intuit account</h2>
-                <p>One account for everyting Intuit, including Mint. <a href="#">Learn more</a></p>
+                <h2 class="about__create">Create an Intuit account</h2>
+                <p class="about__inf">One account for everyting Intuit, including Mint. <a href="#" class="learn__more">Learn more</a></p>
             </div>
             <fieldset class="account-info">
-                <label for="#">
-                    Email
-                    <input type="email" name="email-adress">
+                <label for="#" class="info_label">
+                    Email <br>
+                    <input type="email" name="email-adress" class="info_input">
                 </label>
-                <label for="#">
-                    Phone (recommended)
-                    <input type="tel" name="user-phone">
-                    Standart call, message, or data rates may aplly.
+                <label for="#" class="info_label">
+                    Phone (recommended) <br>
+                    <input type="tel" name="user-phone" class="info_input"> <br>
+                    <span class="user_phone">Standart call, message, or data rates may aplly.</span> 
                 </label>
-                <label for="#">
-                    Password
-                    <input type="password" name="user-password">
+                <label for="#" class="info_label">
+                    Password <br>
+                    <input type="password" name="user-password" class="info_input">
                 </label>
             </fieldset>
             <fieldset class="account-action">
-                <input class="btn" type="submit" name="submit" value="Create Account">
+                <input class="btn__account__action" type="submit" name="submit" value="Create Account">
             </fieldset>
             <div class="info">
                 By selecting Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy</a> <a href="#">Statement</a>.
             </div>
             <div class="form_footer">
-                Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+                Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#" class="terms">Terms of Use</a>.
             </div>
         </form>
         <div class="main_footer">
